@@ -1,6 +1,6 @@
 # Privacy Policy for Candles
 
-**Last Updated: April 19, 2026**
+**Last Updated: April 21, 2026**
 
 This Privacy Policy describes how the **Candles** mobile application (candle flame ambience and settings), developed by **Diego de Souza Castro**, collects, uses, and protects your information when you use our mobile application, available on the App Store and Google Play.
 
@@ -53,7 +53,49 @@ We may collect other **non-personal or aggregated** information related to how t
 
 This data helps us improve performance and user experience.
 
-## 3. How We Use Your Information
+## 3. How long we keep your data (retention)
+
+Retention depends on **where the data lives**:
+
+### Data stored only on your device (candle settings)
+
+Your flame settings, brightness preference, wake-lock preference, and similar **preferences** are stored **only on your device** (for example in app storage / SharedPreferences). **We do not copy this data to our own servers.** It remains on the device **until you delete it** (see Section 4 below) or until it is removed when you uninstall the app or the OS clears app data.
+
+### Analytics and diagnostics (Firebase)
+
+**Google Firebase Analytics** and **Firebase Crashlytics** process data on **Google’s infrastructure**, not on servers we operate. Retention is governed by **Google’s and Firebase’s settings and policies**. In practice:
+
+- **Analytics (usage events)** may be retained by Google for **up to 14 months** for product and reporting purposes (or another period Google allows in the Firebase / Analytics console). This is typically **aggregated or pseudonymous** usage data as described in Section 2, not your flame slider values as a permanent “profile” on our side.
+- **Crash reports** may be retained by Google for **as long as needed** to diagnose stability issues, under Google’s retention rules for Crashlytics.
+
+For the latest details, see [Google’s Privacy Policy](https://policies.google.com/privacy) and [Firebase Privacy and Security](https://firebase.google.com/support/privacy).
+
+### Advertising (Google AdMob)
+
+**Google AdMob** may retain ad-related data (such as identifiers and ad interaction data) according to [Google’s Privacy Policy](https://policies.google.com/privacy) and your **Google / device ad settings**. We do not set a separate retention schedule beyond what Google applies for the ad SDK.
+
+## 4. How you can delete your data
+
+You can delete or limit data as follows:
+
+### Delete all preferences stored in the app (on your device)
+
+Use your **device’s system settings** for installed apps: open the list of apps, select **Candles**, and use the option your operating system provides to **clear app data**, **clear storage**, or **reset** the app (labels differ by platform and version). That removes locally saved candle settings and other in-app preferences stored on the device.
+
+**Uninstalling the app** also removes locally stored app preferences from that device (subject to how your device handles backups or cloud restore). You can install the app again from the store if you choose.
+
+### Data held by Google (Analytics, Crashlytics, AdMob)
+
+Because analytics, crash reporting, and ads are processed by **Google**, you can manage or delete related activity through **your Google Account** and device settings, for example:
+
+- **Google My Activity** — review and delete activity associated with Google services: [https://myactivity.google.com](https://myactivity.google.com)  
+- **Google Analytics opt-out** (browser add-on; where applicable): [https://tools.google.com/dlpage/gaoptout](https://tools.google.com/dlpage/gaoptout)  
+- **Ads personalization** — adjust ad settings for your Google account or device: [https://adssettings.google.com](https://adssettings.google.com)  
+- **Advertising identifier** — on supported devices you may **reset** or **limit** the advertising identifier used for ads in your **system privacy settings** or **Google account ad settings** (exact path and wording depend on your platform).
+
+We **do not** maintain a separate user database where we store your name, email, or flame settings for you to “delete an account” — the app does not require sign-up. If you contact us by email and we have retained **only** the content of your support message, you may ask us to **delete that correspondence** and we will do so where reasonable and lawful.
+
+## 5. How We Use Your Information
 
 The collected data is used solely for:
 
@@ -63,7 +105,7 @@ The collected data is used solely for:
 
 We do **not** sell your personal information. We do not use your data to train third-party AI models (this app does not provide cloud AI chat).
 
-## 4. Third-Party Services
+## 6. Third-Party Services
 
 ### Google AdMob
 
@@ -78,23 +120,23 @@ Advertising is provided by **Google AdMob**. Data collection and use are governe
 
 Any additional third-party tools we add will be listed in updates to this policy and will operate under their respective privacy policies.
 
-## 5. Data Security
+## 7. Data Security
 
 We rely on **industry-standard practices** from Apple, Google, and Firebase for data handled by those platforms. **Settings you keep only on the device** remain subject to your device’s own security (passcode, encryption, backups).
 
 No method of transmission or storage is 100% secure. We recommend keeping your device updated and protected with a secure lock.
 
-## 6. Children’s Privacy
+## 8. Children’s Privacy
 
 The app is **not directed at children under 13**. We do not knowingly collect personal information from children.
 
 If you believe a child has provided us with personal information, please contact us and we will take appropriate steps.
 
-## 7. Changes to This Privacy Policy
+## 9. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time to reflect changes in the app, our practices, or legal requirements. The **“Last Updated”** date at the top will change when we do. Continued use of the app after updates constitutes acceptance of the revised policy where permitted by law.
 
-## 8. Contact Us
+## 10. Contact Us
 
 If you have any questions, concerns, or requests regarding this Privacy Policy, please contact:
 
